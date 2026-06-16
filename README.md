@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Zoom Clone
+
+A modern full-stack video conferencing platform built with Next.js, TypeScript, Tailwind CSS, and Clerk Authentication.
+
+## Features
+
+* Secure Authentication with Clerk
+* Create & Join Meetings
+* Modern Responsive UI
+* Sidebar Navigation
+* Dynamic Routing with Next.js App Router
+* Real-time Meeting Room Structure
+* Protected Routes
+* Reusable UI Components
+* Mobile Responsive Design
+
+## Tech Stack
+
+* Next.js 16
+* React 19
+* TypeScript
+* Tailwind CSS v4
+* shadcn/ui
+* Clerk Authentication
+
+## Project Structure
+
+```bash
+app/
+components/
+constants/
+lib/
+public/
+```
 
 ## Getting Started
 
-First, run the development server:
+Clone the repository:
+
+```bash
+git clone https://github.com/yugank45/zoom-clone.git
+```
+
+Move into the project folder:
+
+```bash
+cd zoom-clone
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create environment variables:
+
+```bash
+.env.local
+```
+
+Add your Clerk keys:
+
+```env
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
+CLERK_SECRET_KEY=your_secret
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Learning Outcomes
 
-## Learn More
+This project helped in understanding:
 
-To learn more about Next.js, take a look at the following resources:
+* Next.js App Router
+* Dynamic Routing
+* Layout Architecture
+* React Components
+* Tailwind CSS v4
+* Authentication Flow
+* Responsive Sidebar Navigation
+* Modern Full Stack Development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Improvements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Video Calling Integration
+* Screen Sharing
+* Chat System
+* Meeting Recording
+* Real-time Notifications
+* Calendar Scheduling
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deploy easily using Vercel.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build
+```
+
+## Author
+
+Yugank Singh
+
+## License
+
+This project is for learning and educational purposes.
